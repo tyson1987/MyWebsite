@@ -24,6 +24,10 @@ app.get('/contact', (req, res) => {
     res.render('contact');
 });
 
+app.get('/portfolio', (req, res) => {
+    res.render('portfolio');
+});
+
 app.listen(port, () => {
     console.log(`Server is Running on port ${port}`);
 });
