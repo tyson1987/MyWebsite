@@ -30,7 +30,11 @@ const Message = mongoose.model('message', new Schema({
         type: String
     },
     message:{
-        type:String
+        type: String
+    },
+    date: {
+        type: Date,
+        default: Date.now
     }
 }));
 //setup environment variables
