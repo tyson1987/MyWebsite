@@ -1,9 +1,18 @@
+body{
+    background-image: url("/images/image2.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+p{
+    color: whitesmoke;
+}
 h1{
     color: red;
     text-align: center;
 }
 #homepage{
     text-align: center;
+    color: whitesmoke;
 }
 .para{
     font-size: 30px;
@@ -19,4 +28,7 @@ img{
 .col-sm-4{
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
+}
+.fa{
+    color: aliceblue;
 }
